@@ -9,18 +9,18 @@ for(item of buttons){
         {
             buttonText='*';
             screenValue += buttonText;
-            screen.Value = screenValue;
+            screen.value = screenValue;
         }
         else if(buttonText == 'C'){
             screenValue = "";
-            screen.Value = screenValue;
+            screen.value = screenValue;
         }
         else if(buttonText == '='){
-            screen.Value = eval(screenValue);
+            screen.value = eval(screenValue);
         }
         else{
             screenValue += buttonText;
-            screen.Value = screenValue;
+            screen.value = screenValue;
         }
 
     })
